@@ -1,0 +1,30 @@
+<%- include('common/nav'); -%>
+
+<h1
+  style="
+    color: rgba(207, 255, 32, 0.59);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  "
+>
+  User Login
+</h1>
+
+<form
+  method="POST"
+  action=""
+  style="
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  "
+>
+  <label>EmailID: <br /><input type="text" name="email" /></label><br /><br />
+  <label>Password: <br /><input type="password" name="password" /></label
+  ><br /><br />
+
+  <button type="submit">Login</button>
+</form>

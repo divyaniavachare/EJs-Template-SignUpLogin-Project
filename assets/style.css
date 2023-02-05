@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 92, 150);
+    color: whitesmoke;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #232323;
+}
+
+.nav li {
+    display: inline;
+    margin: 10px 50px;
+}

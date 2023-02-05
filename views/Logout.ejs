@@ -1,0 +1,25 @@
+<ul class="nav">
+  <li><a href="/">Logout</a></li>
+</ul>
+
+<link rel="stylesheet" href="../assets/style.css" />
+
+<h1
+  style="
+    color: rgba(207, 255, 32, 0.59);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  "
+>
+  Successful Login
+</h1>
+<div style="background-color: aqua; margin-top: 40px">
+  <h3 style="color: blue">
+    userId: <br /><span style="color: black"><%=data.userId %></span>
+  </h3>
+  <br />
+  <h3 style="color: blue">
+    Token: <br /><span style="color: black"><%=data.token %></span>
+  </h3>
+</div>

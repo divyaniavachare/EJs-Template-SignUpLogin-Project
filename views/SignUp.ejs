@@ -1,0 +1,32 @@
+<%- include('common/nav'); -%>
+
+<h1
+  style="
+    color: rgba(207, 255, 32, 0.59);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  "
+>
+  SignUp User
+</h1>
+
+<form
+  method="POST"
+  action=""
+  style="
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  "
+>
+  <label>Name: <br /><input type="text" name="name" /></label><br /><br />
+  <label>EmailID: <br /><input type="text" name="email" /></label><br /><br />
+  <label>Password: <br /><input type="password" name="password" /></label
+  ><br /><br />
+  <label>Phone No.: <br /><input type="text" name="phone" /></label><br /><br />
+
+  <button type="submit">SignUp</button>
+</form>
